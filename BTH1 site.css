@@ -1,0 +1,216 @@
+.full-bleed {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 37%; /* tỷ lệ chiều cao theo chiều rộng */
+    overflow: hidden;
+  }
+  
+  .full-bleed img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: -0.5rem;
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 20px;
+  }
+  .img {
+    vertical-align: middle;
+    margin-bottom: 0.5%;
+}
+.office {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .office img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .office span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    z-index: 1;
+  }
+  .villa {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .villa img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .villa span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    z-index: 1;
+  }
+  .apartment {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .apartment img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .apartment span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    z-index: 1;
+  }
+  .townhouse {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .townhouse img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .townhouse span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    z-index: 1;
+  }
+  .ve-cong-ty {
+    position: relative;
+    top: 100px; /* Khoảng cách từ đỉnh phần tử cha */
+    z-index: 1;
+    display: block;
+}
+.factory {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .factory img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .factory span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight:600;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+  }
+.showroom {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .showroom img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .showroom span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+  }
+.introduce {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .introduce img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .introduce span {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+  }
+.a1 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
